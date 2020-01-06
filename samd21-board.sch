@@ -1,0 +1,1037 @@
+EESchema Schematic File Version 4
+LIBS:samd21-board-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4000 1900 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	4000 1900 4100 1900
+Text GLabel 3950 4650 0    50   Input ~ 0
+A5
+Text GLabel 3950 4050 0    50   Input ~ 0
+A1
+Text GLabel 3950 4150 0    50   Input ~ 0
+A2
+Text GLabel 3950 4250 0    50   Input ~ 0
+A3
+Text GLabel 3950 4350 0    50   Input ~ 0
+A4
+Text GLabel 3950 3850 0    50   Input ~ 0
+A0
+Text GLabel 3950 3950 0    50   Input ~ 0
+AREF
+Text GLabel 3950 4450 0    50   Input ~ 0
+D8
+Text GLabel 3950 4550 0    50   Input ~ 0
+D9
+Text GLabel 7100 2900 2    50   Input ~ 0
+SCK
+Text GLabel 7100 2800 2    50   Input ~ 0
+MOSI
+Text GLabel 7100 2700 2    50   Input ~ 0
+D0
+Text GLabel 7100 2600 2    50   Input ~ 0
+D1
+Text GLabel 7100 2500 2    50   Input ~ 0
+D3
+Text GLabel 7100 2400 2    50   Input ~ 0
+D4
+Text GLabel 7100 3000 2    50   Input ~ 0
+MISO
+NoConn ~ 6950 3100
+Text GLabel 7100 3200 2    50   Input ~ 0
+D2
+Text GLabel 7100 3300 2    50   Input ~ 0
+D5
+Text GLabel 7100 3400 2    50   Input ~ 0
+D11
+Text GLabel 7100 3500 2    50   Input ~ 0
+D13
+Text GLabel 7100 3600 2    50   Input ~ 0
+D10
+Text GLabel 7100 3700 2    50   Input ~ 0
+D12
+Text GLabel 7100 3800 2    50   Input ~ 0
+D6
+Text GLabel 7100 3900 2    50   Input ~ 0
+D7
+Text GLabel 7100 4000 2    50   Input ~ 0
+SDA
+Text GLabel 7100 4100 2    50   Input ~ 0
+SCL
+Text GLabel 7100 4200 2    50   Input ~ 0
+D-
+Text GLabel 7100 4300 2    50   Input ~ 0
+D+
+Text GLabel 7100 5000 2    50   Input ~ 0
+SWCLK
+Text GLabel 7100 5100 2    50   Input ~ 0
+SWDIO
+Wire Wire Line
+	7100 5000 6950 5000
+Wire Wire Line
+	6950 5100 7100 5100
+Wire Wire Line
+	7100 4300 6950 4300
+Wire Wire Line
+	6950 4200 7100 4200
+Wire Wire Line
+	7100 4100 6950 4100
+Wire Wire Line
+	6950 4000 7100 4000
+Wire Wire Line
+	7100 3900 6950 3900
+Wire Wire Line
+	6950 3800 7100 3800
+Wire Wire Line
+	6950 3700 7100 3700
+Wire Wire Line
+	7100 3600 6950 3600
+Wire Wire Line
+	6950 3500 7100 3500
+Wire Wire Line
+	7100 3400 6950 3400
+Wire Wire Line
+	6950 3300 7100 3300
+Wire Wire Line
+	7100 3200 6950 3200
+Wire Wire Line
+	6950 3000 7100 3000
+Wire Wire Line
+	7100 2900 6950 2900
+Wire Wire Line
+	6950 2800 7100 2800
+Wire Wire Line
+	7100 2700 6950 2700
+Wire Wire Line
+	6950 2600 7100 2600
+Wire Wire Line
+	7100 2500 6950 2500
+Wire Wire Line
+	6950 2400 7100 2400
+Wire Wire Line
+	4100 3850 3950 3850
+Wire Wire Line
+	3950 3950 4100 3950
+Wire Wire Line
+	4100 4050 3950 4050
+Wire Wire Line
+	3950 4150 4100 4150
+Wire Wire Line
+	4100 4250 3950 4250
+Wire Wire Line
+	3950 4350 4100 4350
+Wire Wire Line
+	4100 4450 3950 4450
+Wire Wire Line
+	3950 4550 4100 4550
+Wire Wire Line
+	3950 4650 4100 4650
+$Comp
+L power:GND #PWR012
+U 1 1 5D4F3FC4
+P 3850 5200
+F 0 "#PWR012" H 3850 4950 50  0001 C CNN
+F 1 "GND" H 3855 5027 50  0000 C CNN
+F 2 "" H 3850 5200 50  0001 C CNN
+F 3 "" H 3850 5200 50  0001 C CNN
+	1    3850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4950 3850 4950
+Wire Wire Line
+	3850 4950 3850 5100
+Connection ~ 3850 5100
+Wire Wire Line
+	3850 5100 3850 5200
+$Comp
+L Device:Crystal Y1
+U 1 1 5D4F6009
+P 3500 3400
+F 0 "Y1" V 3546 3269 50  0000 R CNN
+F 1 "32768Hz" V 3455 3269 50  0000 R CNN
+F 2 "SamacSys_Parts:ABS-07" H 3500 3400 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ABS07-32.768KHZ-7-T-Abracon-datasheet-8326266.pdf" H 3500 3400 50  0001 C CNN
+F 4 "ABS07-32.768KHZ-7-T" V 3500 3400 50  0001 C CNN "MPN"
+	1    3500 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3300 3850 3300
+Wire Wire Line
+	3850 3300 3850 3250
+Wire Wire Line
+	3850 3250 3500 3250
+Wire Wire Line
+	3500 3550 4100 3550
+$Comp
+L power:+3.3V #PWR08
+U 1 1 5D4F9045
+P 3200 1700
+F 0 "#PWR08" H 3200 1550 50  0001 C CNN
+F 1 "+3.3V" H 3215 1873 50  0000 C CNN
+F 2 "" H 3200 1700 50  0001 C CNN
+F 3 "" H 3200 1700 50  0001 C CNN
+	1    3200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5D4FA659
+P 2150 2450
+F 0 "#PWR04" H 2150 2300 50  0001 C CNN
+F 1 "+3.3V" H 2165 2623 50  0000 C CNN
+F 2 "" H 2150 2450 50  0001 C CNN
+F 3 "" H 2150 2450 50  0001 C CNN
+	1    2150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR021
+U 1 1 5D4FB262
+P 7850 1600
+F 0 "#PWR021" H 7850 1450 50  0001 C CNN
+F 1 "+3.3V" H 7865 1773 50  0000 C CNN
+F 2 "" H 7850 1600 50  0001 C CNN
+F 3 "" H 7850 1600 50  0001 C CNN
+	1    7850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1600 7850 1850
+Wire Wire Line
+	7850 1850 7750 1850
+Wire Wire Line
+	3200 1700 3200 2200
+Wire Wire Line
+	3200 2200 3300 2200
+Wire Wire Line
+	3850 2500 4100 2500
+$Comp
+L power:GND #PWR011
+U 1 1 5D5025F5
+P 3850 2850
+F 0 "#PWR011" H 3850 2600 50  0001 C CNN
+F 1 "GND" H 4050 2750 50  0000 C CNN
+F 2 "" H 3850 2850 50  0001 C CNN
+F 3 "" H 3850 2850 50  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5D504396
+P 3300 2350
+F 0 "C5" H 3415 2396 50  0000 L CNN
+F 1 "10uF" H 3415 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3338 2200 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/TMK212BBJ106KG-T-Taiyo-Yuden-datasheet-23715841.pdf" H 3300 2350 50  0001 C CNN
+F 4 "TMK212BBJ106KG-T" H 3300 2350 50  0001 C CNN "MPN"
+	1    3300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2200 3700 2200
+$Comp
+L Device:C C6
+U 1 1 5D504C90
+P 3700 2350
+F 0 "C6" H 3815 2396 50  0000 L CNN
+F 1 "0.1uF" H 3815 2305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3738 2200 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B104KACNNNC-Samsung-Electro-Mechanics-datasheet-11791079.pdf" H 3700 2350 50  0001 C CNN
+F 4 "CL21B104KACNNNC" H 3700 2350 50  0001 C CNN "MPN"
+	1    3700 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 3700 2200
+Wire Wire Line
+	3700 2200 4100 2200
+$Comp
+L power:GND #PWR010
+U 1 1 5D50502C
+P 3700 2600
+F 0 "#PWR010" H 3700 2350 50  0001 C CNN
+F 1 "GND" H 3600 2500 50  0000 C CNN
+F 2 "" H 3700 2600 50  0001 C CNN
+F 3 "" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5D505287
+P 3300 2600
+F 0 "#PWR09" H 3300 2350 50  0001 C CNN
+F 1 "GND" H 3305 2427 50  0000 C CNN
+F 2 "" H 3300 2600 50  0001 C CNN
+F 3 "" H 3300 2600 50  0001 C CNN
+	1    3300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5D5054FD
+P 7350 2000
+F 0 "C10" H 7465 2046 50  0000 L CNN
+F 1 "0.1uF" H 7465 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7388 1850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B104KACNNNC-Samsung-Electro-Mechanics-datasheet-11791079.pdf" H 7350 2000 50  0001 C CNN
+F 4 "CL21B104KACNNNC" H 7350 2000 50  0001 C CNN "MPN"
+	1    7350 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7350 1850
+Wire Wire Line
+	7350 1850 6950 1850
+$Comp
+L Device:C C12
+U 1 1 5D505C68
+P 7750 2000
+F 0 "C12" H 7865 2046 50  0000 L CNN
+F 1 "10uF" H 7865 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7788 1850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/TMK212BBJ106KG-T-Taiyo-Yuden-datasheet-23715841.pdf" H 7750 2000 50  0001 C CNN
+F 4 "TMK212BBJ106KG-T" H 7750 2000 50  0001 C CNN "MPN"
+	1    7750 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 1850
+Wire Wire Line
+	7750 1850 7350 1850
+$Comp
+L power:GND #PWR017
+U 1 1 5D50630F
+P 7350 2150
+F 0 "#PWR017" H 7350 1900 50  0001 C CNN
+F 1 "GND" H 7355 1977 50  0000 C CNN
+F 2 "" H 7350 2150 50  0001 C CNN
+F 3 "" H 7350 2150 50  0001 C CNN
+	1    7350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5D50670D
+P 7750 2150
+F 0 "#PWR020" H 7750 1900 50  0001 C CNN
+F 1 "GND" H 7755 1977 50  0000 C CNN
+F 2 "" H 7750 2150 50  0001 C CNN
+F 3 "" H 7750 2150 50  0001 C CNN
+	1    7750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D506966
+P 2300 3250
+F 0 "C1" H 2050 3250 50  0000 L CNN
+F 1 "10uF" H 2000 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2338 3100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/TMK212BBJ106KG-T-Taiyo-Yuden-datasheet-23715841.pdf" H 2300 3250 50  0001 C CNN
+F 4 "TMK212BBJ106KG-T" H 2300 3250 50  0001 C CNN "MPN"
+	1    2300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D506F41
+P 2500 3250
+F 0 "C2" H 2615 3296 50  0000 L CNN
+F 1 "0.1uF" H 2615 3205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2538 3100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B104KACNNNC-Samsung-Electro-Mechanics-datasheet-11791079.pdf" H 2500 3250 50  0001 C CNN
+F 4 "CL21B104KACNNNC" H 2500 3250 50  0001 C CNN "Field4"
+	1    2500 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3100 2150 3100
+Connection ~ 2300 3100
+$Comp
+L pspice:INDUCTOR L1
+U 1 1 5D50BE33
+P 2150 2800
+F 0 "L1" V 2104 2878 50  0000 L CNN
+F 1 "10uH" V 2195 2878 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 2800 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CB2012T100KR-Taiyo-Yuden-datasheet-41194861.pdf" H 2150 2800 50  0001 C CNN
+F 4 "CB2012T100KR" V 2150 2800 50  0001 C CNN "MPN"
+	1    2150 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2450 2150 2550
+Wire Wire Line
+	2150 3050 2150 3100
+$Comp
+L power:GND #PWR06
+U 1 1 5D510912
+P 2500 3500
+F 0 "#PWR06" H 2500 3250 50  0001 C CNN
+F 1 "GND" H 2700 3400 50  0000 C CNN
+F 2 "" H 2500 3500 50  0001 C CNN
+F 3 "" H 2500 3500 50  0001 C CNN
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5D510DD9
+P 2300 3500
+F 0 "#PWR05" H 2300 3250 50  0001 C CNN
+F 1 "GND" H 2150 3400 50  0000 C CNN
+F 2 "" H 2300 3500 50  0001 C CNN
+F 3 "" H 2300 3500 50  0001 C CNN
+	1    2300 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 3400 2500 3500
+Wire Wire Line
+	2300 3400 2300 3500
+$Comp
+L Device:C C7
+U 1 1 5D4FF475
+P 3850 2650
+F 0 "C7" H 3965 2696 50  0000 L CNN
+F 1 "1uF" H 3965 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3888 2500 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B105KAFNNNE-Samsung-Electro-Mechanics-datasheet-11721220.pdf" H 3850 2650 50  0001 C CNN
+F 4 "CL21B105KAFNNNE" H 3850 2650 50  0001 C CNN "MPN"
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2800 3850 2850
+Wire Wire Line
+	3700 2500 3700 2600
+Wire Wire Line
+	3300 2500 3300 2600
+Connection ~ 2500 3100
+Wire Wire Line
+	2500 3100 2300 3100
+Connection ~ 3300 2200
+Wire Wire Line
+	4100 3100 4100 3000
+Wire Wire Line
+	2500 3100 4100 3100
+$Comp
+L Device:C C3
+U 1 1 5D524EBA
+P 3250 3250
+F 0 "C3" V 3200 3400 50  0000 C CNN
+F 1 "10pF" V 3200 3100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 3100 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21C100JBANNNC-Samsung-Electro-Mechanics-datasheet-8324245.pdf" H 3250 3250 50  0001 C CNN
+F 4 "CL21C100JBANNNC" V 3250 3250 50  0001 C CNN "MPN"
+	1    3250 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D525837
+P 3250 3550
+F 0 "C4" V 3200 3700 50  0000 C CNN
+F 1 "10pF" V 3200 3400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3288 3400 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21C100JBANNNC-Samsung-Electro-Mechanics-datasheet-8324245.pdf" H 3250 3550 50  0001 C CNN
+F 4 "CL21C100JBANNNC" V 3250 3550 50  0001 C CNN "MPN"
+	1    3250 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3250 3400 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3400 3550 3500 3550
+Connection ~ 3500 3550
+Wire Wire Line
+	3100 3550 2950 3550
+Wire Wire Line
+	2950 3550 2950 3250
+Wire Wire Line
+	2950 3250 3100 3250
+$Comp
+L power:GND #PWR07
+U 1 1 5D52B45F
+P 2950 3600
+F 0 "#PWR07" H 2950 3350 50  0001 C CNN
+F 1 "GND" H 3150 3500 50  0000 C CNN
+F 2 "" H 2950 3600 50  0001 C CNN
+F 3 "" H 2950 3600 50  0001 C CNN
+	1    2950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3600 2950 3550
+Connection ~ 2950 3550
+$Comp
+L Connector:Conn_01x15_Male J3
+U 1 1 5D52F845
+P 10650 3850
+F 0 "J3" H 10622 3782 50  0000 R CNN
+F 1 "Conn_01x15_Male" H 10622 3873 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 10650 3850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/68000-416HLF-Areva-datasheet-10088795.pdf" H 10650 3850 50  0001 C CNN
+F 4 "68000-416HLF" H 10650 3850 50  0001 C CNN "Field4"
+	1    10650 3850
+	-1   0    0    1   
+$EndComp
+Text GLabel 9500 3250 2    50   Input ~ 0
+D13
+Text GLabel 9500 3350 2    50   Input ~ 0
+D12
+Text GLabel 9500 3450 2    50   Input ~ 0
+D11
+Text GLabel 9500 3550 2    50   Input ~ 0
+D10
+Text GLabel 9500 3650 2    50   Input ~ 0
+D9
+Text GLabel 9500 3750 2    50   Input ~ 0
+D8
+Text GLabel 9500 3850 2    50   Input ~ 0
+D7
+Text GLabel 9500 3950 2    50   Input ~ 0
+D6
+Text GLabel 9500 4050 2    50   Input ~ 0
+D5
+Text GLabel 9500 4150 2    50   Input ~ 0
+D4
+Text GLabel 9500 4250 2    50   Input ~ 0
+D3
+Text GLabel 9500 4350 2    50   Input ~ 0
+D2
+Text GLabel 9500 4450 2    50   Input ~ 0
+D1
+Text GLabel 9500 4550 2    50   Input ~ 0
+D0
+Text GLabel 10350 3150 0    30   Input ~ 0
+~RESET
+Text GLabel 10350 3350 0    50   Input ~ 0
+AREF
+Text GLabel 10350 3550 0    50   Input ~ 0
+A0
+Text GLabel 10350 3650 0    50   Input ~ 0
+A1
+Text GLabel 10350 3750 0    50   Input ~ 0
+A2
+Text GLabel 10350 3850 0    50   Input ~ 0
+A3
+Text GLabel 10350 3950 0    50   Input ~ 0
+A4
+Text GLabel 10350 4050 0    50   Input ~ 0
+A5
+Text GLabel 10350 4150 0    50   Input ~ 0
+SCK
+Text GLabel 10350 4250 0    50   Input ~ 0
+MOSI
+Text GLabel 10350 4350 0    50   Input ~ 0
+MISO
+Text GLabel 10350 4450 0    50   Input ~ 0
+SCL
+Text GLabel 10350 4550 0    50   Input ~ 0
+SDA
+$Comp
+L Connector:Conn_01x15_Male J2
+U 1 1 5D535789
+P 9150 3850
+F 0 "J2" H 9258 4731 50  0000 C CNN
+F 1 "Conn_01x15_Male" H 9258 4640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9150 3850 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/68000-416HLF-Areva-datasheet-10088795.pdf" H 9150 3850 50  0001 C CNN
+F 4 "68000-416HLF" H 9150 3850 50  0001 C CNN "MPN"
+	1    9150 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 3150 2    50   Input ~ 0
+VBUS
+Wire Wire Line
+	9500 3150 9350 3150
+Wire Wire Line
+	9350 3250 9500 3250
+Wire Wire Line
+	9500 3350 9350 3350
+Wire Wire Line
+	9350 3450 9500 3450
+Wire Wire Line
+	9500 3550 9350 3550
+Wire Wire Line
+	9350 3650 9500 3650
+Wire Wire Line
+	9500 3750 9350 3750
+Wire Wire Line
+	9350 3850 9500 3850
+Wire Wire Line
+	9500 3950 9350 3950
+Wire Wire Line
+	9350 4050 9500 4050
+Wire Wire Line
+	9500 4150 9350 4150
+Wire Wire Line
+	9350 4250 9500 4250
+Wire Wire Line
+	9500 4350 9350 4350
+Wire Wire Line
+	9500 4450 9350 4450
+Wire Wire Line
+	9350 4550 9500 4550
+Wire Wire Line
+	10350 3150 10450 3150
+Wire Wire Line
+	10450 3250 10350 3250
+Wire Wire Line
+	10350 3350 10450 3350
+Wire Wire Line
+	10350 3450 10450 3450
+Wire Wire Line
+	10450 3550 10350 3550
+Wire Wire Line
+	10350 3650 10450 3650
+Wire Wire Line
+	10450 3750 10350 3750
+Wire Wire Line
+	10350 3850 10450 3850
+Wire Wire Line
+	10450 3950 10350 3950
+Wire Wire Line
+	10350 4050 10450 4050
+Wire Wire Line
+	10450 4150 10350 4150
+Wire Wire Line
+	10350 4250 10450 4250
+Wire Wire Line
+	10450 4350 10350 4350
+Wire Wire Line
+	10350 4450 10450 4450
+Wire Wire Line
+	10450 4550 10350 4550
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5D592D52
+P 8850 1250
+F 0 "J1" H 8907 1717 50  0000 C CNN
+F 1 "USB_B_Micro" H 8907 1626 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 9000 1200 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/473460001-Molex-datasheet-8350473.pdf" H 9000 1200 50  0001 C CNN
+F 4 "47346-0001" H 8850 1250 50  0001 C CNN "MPN"
+	1    8850 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 1750 3    50   Input ~ 0
+SHIELD
+$Comp
+L power:GND #PWR023
+U 1 1 5D594E45
+P 8850 1750
+F 0 "#PWR023" H 8850 1500 50  0001 C CNN
+F 1 "GND" H 8900 1600 50  0000 C CNN
+F 2 "" H 8850 1750 50  0001 C CNN
+F 3 "" H 8850 1750 50  0001 C CNN
+	1    8850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 1650 8850 1750
+Wire Wire Line
+	8750 1650 8750 1750
+NoConn ~ 9150 1450
+Text GLabel 9250 1050 2    50   Input ~ 0
+VBUS
+Text GLabel 9250 1250 2    50   Input ~ 0
+D+
+Text GLabel 9250 1350 2    50   Input ~ 0
+D-
+Wire Wire Line
+	9250 1250 9150 1250
+Wire Wire Line
+	9150 1050 9250 1050
+Wire Wire Line
+	9250 1350 9150 1350
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5D5AE3C6
+P 10250 800
+F 0 "SW1" H 10250 1035 50  0000 C CNN
+F 1 "SW_SPST" H 10250 944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3S-1000" H 10250 800 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/B3S-1000-Omron-datasheet-10854676.pdf" H 10250 800 50  0001 C CNN
+F 4 "B3S-1000" H 10250 800 50  0001 C CNN "MPN"
+	1    10250 800 
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 800  0    50   Input ~ 0
+~RESET
+$Comp
+L power:GND #PWR026
+U 1 1 5D5AF584
+P 10600 800
+F 0 "#PWR026" H 10600 550 50  0001 C CNN
+F 1 "GND" V 10605 672 50  0000 R CNN
+F 2 "" H 10600 800 50  0001 C CNN
+F 3 "" H 10600 800 50  0001 C CNN
+	1    10600 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10600 800  10450 800 
+Wire Wire Line
+	10050 800  9950 800 
+$Comp
+L Device:C C13
+U 1 1 5D5ECF00
+P 8500 2550
+F 0 "C13" H 8615 2596 50  0000 L CNN
+F 1 "1 uF" H 8615 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8538 2400 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B105KAFNNNE-Samsung-Electro-Mechanics-datasheet-11721220.pdf" H 8500 2550 50  0001 C CNN
+F 4 "CL21B105KAFNNNE" H 8500 2550 50  0001 C CNN "MPN"
+	1    8500 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 2200 1    50   Input ~ 0
+AREF
+$Comp
+L power:GND #PWR022
+U 1 1 5D5EE59B
+P 8500 2850
+F 0 "#PWR022" H 8500 2600 50  0001 C CNN
+F 1 "GND" H 8505 2677 50  0000 C CNN
+F 2 "" H 8500 2850 50  0001 C CNN
+F 3 "" H 8500 2850 50  0001 C CNN
+	1    8500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2400 8500 2200
+Wire Wire Line
+	8500 2700 8500 2850
+$Comp
+L Device:R_US R1
+U 1 1 5D5FF024
+P 1200 1100
+F 0 "R1" H 1268 1146 50  0000 L CNN
+F 1 "330" H 1268 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1240 1090 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-P06J331V-Panasonic-datasheet-68299097.pdf" H 1200 1100 50  0001 C CNN
+F 4 "ERJ-P06J331V" H 1200 1100 50  0001 C CNN "MPN"
+	1    1200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5D6007E0
+P 1200 1650
+F 0 "D1" V 1239 1533 50  0000 R CNN
+F 1 "LED" V 1148 1533 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1200 1650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LTST-C171KRKT-Lite-On-datasheet-166436.pdf" H 1200 1650 50  0001 C CNN
+F 4 "LTST-C171KRKT" V 1200 1650 50  0001 C CNN "MPN"
+	1    1200 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5D6013D7
+P 1200 2050
+F 0 "#PWR02" H 1200 1800 50  0001 C CNN
+F 1 "GND" H 1205 1877 50  0000 C CNN
+F 2 "" H 1200 2050 50  0001 C CNN
+F 3 "" H 1200 2050 50  0001 C CNN
+	1    1200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5D6018BD
+P 1650 2050
+F 0 "#PWR03" H 1650 1800 50  0001 C CNN
+F 1 "GND" H 1655 1877 50  0000 C CNN
+F 2 "" H 1650 2050 50  0001 C CNN
+F 3 "" H 1650 2050 50  0001 C CNN
+	1    1650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1800 1200 2050
+Wire Wire Line
+	1650 2050 1650 1800
+Wire Wire Line
+	1650 1500 1650 1250
+Wire Wire Line
+	1200 1500 1200 1250
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5D61571D
+P 1200 800
+F 0 "#PWR01" H 1200 650 50  0001 C CNN
+F 1 "+3.3V" H 1215 973 50  0000 C CNN
+F 2 "" H 1200 800 50  0001 C CNN
+F 3 "" H 1200 800 50  0001 C CNN
+	1    1200 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 800  1200 950 
+Text GLabel 1650 750  1    50   Input ~ 0
+D13
+Wire Wire Line
+	1650 750  1650 950 
+$Comp
+L SamacSys_Parts:MIC39100-3.3WS IC1
+U 1 1 5D508359
+P 5450 1050
+F 0 "IC1" H 6050 1315 50  0000 C CNN
+F 1 "MIC39100-3.3WS" H 6050 1224 50  0000 C CNN
+F 2 "SOT230P700X180-4N" H 6500 1150 50  0001 L CNN
+F 3 "https://datasheet.octopart.com/MIC39100-3.3WS-Microchip-datasheet-26081.pdf" H 6500 1050 50  0001 L CNN
+F 4 "MIC39100-3.3WS" H 6500 650 50  0001 L CNN "MPN"
+	1    5450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5D50BDE9
+P 6900 1300
+F 0 "#PWR015" H 6900 1050 50  0001 C CNN
+F 1 "GND" H 6905 1127 50  0000 C CNN
+F 2 "" H 6900 1300 50  0001 C CNN
+F 3 "" H 6900 1300 50  0001 C CNN
+	1    6900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5D50C28E
+P 5350 1350
+F 0 "#PWR014" H 5350 1100 50  0001 C CNN
+F 1 "GND" H 5355 1177 50  0000 C CNN
+F 2 "" H 5350 1350 50  0001 C CNN
+F 3 "" H 5350 1350 50  0001 C CNN
+	1    5350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5D50C5A8
+P 4950 1150
+F 0 "C8" H 5065 1196 50  0000 L CNN
+F 1 "1uF" H 5065 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4988 1000 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B105KAFNNNE-Samsung-Electro-Mechanics-datasheet-11721220.pdf" H 4950 1150 50  0001 C CNN
+F 4 "CL21B105KAFNNNE" H 4950 1150 50  0001 C CNN "MPN"
+	1    4950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5D50C8EF
+P 7150 1150
+F 0 "C9" H 7265 1196 50  0000 L CNN
+F 1 "1uF" H 7265 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7188 1000 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B105KAFNNNE-Samsung-Electro-Mechanics-datasheet-11721220.pdf" H 7150 1150 50  0001 C CNN
+F 4 "CL21B105KAFNNNE" H 7150 1150 50  0001 C CNN "MPN"
+	1    7150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5D50CCF3
+P 7500 1150
+F 0 "C11" H 7615 1196 50  0000 L CNN
+F 1 "0.1uF" H 7615 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7538 1000 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/CL21B104KACNNNC-Samsung-Electro-Mechanics-datasheet-11791079.pdf" H 7500 1150 50  0001 C CNN
+F 4 "CL21B104KACNNNC" H 7500 1150 50  0001 C CNN "MPN"
+	1    7500 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1150 6900 1150
+Wire Wire Line
+	5450 1150 5350 1150
+Wire Wire Line
+	5350 1150 5350 1350
+Wire Wire Line
+	6900 1300 6900 1150
+$Comp
+L power:GND #PWR013
+U 1 1 5D522052
+P 4950 1350
+F 0 "#PWR013" H 4950 1100 50  0001 C CNN
+F 1 "GND" H 4955 1177 50  0000 C CNN
+F 2 "" H 4950 1350 50  0001 C CNN
+F 3 "" H 4950 1350 50  0001 C CNN
+	1    4950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1300 4950 1350
+Wire Wire Line
+	5450 1050 5450 1000
+Wire Wire Line
+	5450 1000 5100 1000
+$Comp
+L power:GND #PWR016
+U 1 1 5D532D4E
+P 7150 1300
+F 0 "#PWR016" H 7150 1050 50  0001 C CNN
+F 1 "GND" H 7155 1127 50  0000 C CNN
+F 2 "" H 7150 1300 50  0001 C CNN
+F 3 "" H 7150 1300 50  0001 C CNN
+	1    7150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5D532E71
+P 7500 1300
+F 0 "#PWR018" H 7500 1050 50  0001 C CNN
+F 1 "GND" H 7505 1127 50  0000 C CNN
+F 2 "" H 7500 1300 50  0001 C CNN
+F 3 "" H 7500 1300 50  0001 C CNN
+	1    7500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1050 6900 1050
+Wire Wire Line
+	6900 1050 6900 1000
+Wire Wire Line
+	6900 1000 7150 1000
+Connection ~ 7150 1000
+Wire Wire Line
+	7150 1000 7500 1000
+$Comp
+L power:+3.3V #PWR019
+U 1 1 5D54529B
+P 7650 950
+F 0 "#PWR019" H 7650 800 50  0001 C CNN
+F 1 "+3.3V" H 7665 1123 50  0000 C CNN
+F 2 "" H 7650 950 50  0001 C CNN
+F 3 "" H 7650 950 50  0001 C CNN
+	1    7650 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 950  7650 1000
+Wire Wire Line
+	7650 1000 7500 1000
+Connection ~ 7500 1000
+Text GLabel 5100 800  1    50   Input ~ 0
+VBUS
+Wire Wire Line
+	5100 800  5100 1000
+Connection ~ 5100 1000
+Wire Wire Line
+	5100 1000 4950 1000
+$Comp
+L power:+3.3V #PWR024
+U 1 1 5D5E258A
+P 10350 3250
+F 0 "#PWR024" H 10350 3100 50  0001 C CNN
+F 1 "+3.3V" H 10365 3423 50  0000 C CNN
+F 2 "" H 10350 3250 50  0001 C CNN
+F 3 "" H 10350 3250 50  0001 C CNN
+	1    10350 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5D5E34F3
+P 10350 3450
+F 0 "#PWR025" H 10350 3200 50  0001 C CNN
+F 1 "GND" H 10400 3300 50  0000 C CNN
+F 2 "" H 10350 3450 50  0001 C CNN
+F 3 "" H 10350 3450 50  0001 C CNN
+	1    10350 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5D600E70
+P 1650 1650
+F 0 "D2" V 1689 1533 50  0000 R CNN
+F 1 "LED" V 1598 1533 50  0000 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 1650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/LTST-C171KRKT-Lite-On-datasheet-166436.pdf" H 1650 1650 50  0001 C CNN
+F 4 "LTST-C171KRKT" V 1650 1650 50  0001 C CNN "MPN"
+	1    1650 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5D5FFBF8
+P 1650 1100
+F 0 "R2" H 1718 1146 50  0000 L CNN
+F 1 "330" H 1718 1055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1690 1090 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ERJ-P06J331V-Panasonic-datasheet-68299097.pdf" H 1650 1100 50  0001 C CNN
+F 4 "ERJ-P06J331V" H 1650 1100 50  0001 C CNN "MPN"
+	1    1650 1100
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 5150 0    50   Input ~ 0
+SWCLK
+Text GLabel 8350 5250 0    50   Input ~ 0
+SWDIO
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5D61FCF8
+P 8500 5150
+F 0 "TP1" V 8300 5300 50  0000 L CNN
+F 1 "TestPoint" V 8400 5250 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8700 5150 50  0001 C CNN
+F 3 "~" H 8700 5150 50  0001 C CNN
+	1    8500 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D62045A
+P 8500 5250
+F 0 "TP2" V 8700 5450 50  0000 L CNN
+F 1 "TestPoint" V 8600 5350 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8700 5250 50  0001 C CNN
+F 3 "~" H 8700 5250 50  0001 C CNN
+	1    8500 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 5150 8350 5150
+Wire Wire Line
+	8350 5250 8500 5250
+NoConn ~ 6950 4400
+NoConn ~ 6950 4500
+NoConn ~ 6950 4600
+NoConn ~ 6950 4700
+NoConn ~ 4100 4750
+Wire Wire Line
+	4100 5100 3850 5100
+$Comp
+L samd21-board-rescue:ATSAMD21G18A-AUT-MCU_Microchip_SAMD U1
+U 1 1 5D4DEEF5
+P 5100 3400
+F 0 "U1" H 5100 1411 50  0000 C CNN
+F 1 "ATSAMD21G18A-AUT" H 5100 1320 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48_7x7mm_P0.5mm_hand_solder" H 4150 1650 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/ATSAMD21G18A-AUT-Microchip-datasheet-117009984.pdf" H 5100 4400 50  0001 C CNN
+F 4 "ATSAMD21G18A-AUT" H 5100 3400 50  0001 C CNN "MPN"
+	1    5100 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
