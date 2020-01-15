@@ -1,0 +1,29 @@
+### Module positions - created on 1/9/2020 5:30:31 PM ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                                           PosX       PosY       Rot  Side
+C1        10uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    92.4560   -94.0562    0.0000  top
+C2        0.1uF             C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    84.6455   -94.8055    0.0000  top
+C3        10pF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    72.5297   -92.8624  180.0000  top
+C4        10pF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    72.5170   -94.8055  180.0000  top
+C5        10uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    71.6026   -87.4649   90.0000  top
+C6        0.1uF             C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    73.5711   -87.4395   90.0000  top
+C7        1uF               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    68.6435   -88.7349  180.0000  top
+C8        1uF               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    59.9948   -81.1276  180.0000  top
+C9        1uF               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    64.2112   -88.6714    0.0000  top
+C10       0.1uF             C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    90.8050   -89.7636  270.0000  top
+C11       0.1uF             C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    64.2112   -90.6272    0.0000  top
+C12       10uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    88.7730   -89.7636  270.0000  top
+C13       1_uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder    68.0593   -93.2180  180.0000  top
+D1        LED               D_0805_2012Metric_Pad1.15x1.40mm_HandSolder    55.7149   -94.5769    0.0000  top
+D2        LED               D_0805_2012Metric_Pad1.15x1.40mm_HandSolder    55.6514   -80.9752  180.0000  top
+IC1       MIC39100-3.3WS    SOT230P700X180-4N                              66.3194   -84.0232    0.0000  top
+J1        USB_B_Micro       USB_Micro-B_Molex_47346-0001                   57.6834   -87.8840  270.0000  top
+L1        10uH              L_0805_2012Metric_Pad1.15x1.40mm_HandSolder    88.7095   -94.0308    0.0000  top
+R1        330               R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    59.5249   -94.5515  180.0000  top
+R2        330               R_0805_2012Metric_Pad1.15x1.40mm_HandSolder    55.6260   -78.8670  180.0000  top
+SW1       SW_SPST           SW_SPST_B3S-1000                               96.4946   -85.7377   90.0000  top
+U1        ATSAMD21G18A-AUT  TQFP-48_7x7mm_P0.5mm_hand_solder               80.7720   -88.0110   90.0000  top
+Y1        32768Hz           ABS-07                                         75.9714   -93.4974   90.0000  top
+## End
